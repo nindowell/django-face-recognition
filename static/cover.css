@@ -9,9 +9,24 @@ a:hover {
   color: #fff;
 }
 
-.underline {
-  text-decoration: underline;
+.lead {
+  margin-bottom: 3px;
+
 }
+
+.button {
+  border: 2px solid #4CAF50;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.button:hover {
+  background-color: #4CAF50;
+}
+
 
 /* Custom default button */
 .btn-secondary,

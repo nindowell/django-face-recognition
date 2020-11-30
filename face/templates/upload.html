@@ -55,8 +55,8 @@
         </form>
       {% if detected %}
       <h2>Успешно!</h2>
-      <p class="lead">Обнаруженные лица: <a class="underline" href="{{ detected }}">нажми сюда</a></p>
-      <p class="lead">Отмеченные лица: <a class="underline" href="{{ marked }}">нажми сюда</a></p>
+          <a href="{{ detected }}" class="button">Обнаруженные лица</a>
+          <a href="{{ marked }}" class="button">Отмеченные лица</a>
       {% endif %}
     </p>
   </main>
