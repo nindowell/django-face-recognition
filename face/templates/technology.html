@@ -1,0 +1,59 @@
+{% load static %}<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Face Prikol</title>
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="{% static 'bootstrap.min.css' %}" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+
+    <!-- Favicons -->
+<meta name="theme-color" content="#563d7c">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'cover.css' %}" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Face Prikol</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link" href="/">Главная</a>
+        <a class="nav-link" href="/upload">Загрузка</a>
+        <a class="nav-link active" href="/technology">О технологии</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Technology.</h1>
+    <p class="lead">Content here.</p>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Face Prikol, by <a href="/">Aital Alekseev</a>.</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
